@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compliance Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+ <!-- ===== FIXED HEADER ===== -->
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+
+    <!-- Logo (left) -->
+    <a href="#home" class="site-logo" aria-label="Homepage">
+      <img src="Assets/Logo.png" alt="Logo" />
+    </a>
+
+    <!-- Hamburger for mobile -->
+    <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Navigation (center on desktop) -->
+    <nav id="main-nav" class="main-nav" role="navigation" aria-label="Main Navigation">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- CTA (right) -->
+    <div class="header-cta">
+      <a href="#contact" class="btn btn-primary">
+        <img src="Assets/Contact-icon.png" alt="" aria-hidden="true" />
+        Contact Us
+      </a>
+    </div>
+  </div>
+</header>
+
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>
+          Simplifying <span class="highlight">Compliance</span> <br />
+          For Research Analysts
+        </h1>
+        <p>
+          Stay focused on your insights—we’ll handle the compliance. Our expert
+          solutions ensure your research practices meet every regulatory
+          requirement with confidence and ease.
+        </p>
+
+        <ul class="hero-list">
+          <li><img src="Assets/check-sign.png" alt=""> End-to-End Compliance Support</li>
+          <li><img src="Assets/check-sign.png" alt=""> Regulatory Filings Made Simple</li>
+          <li><img src="Assets/check-sign.png" alt=""> Tailored Solutions For Analysts & Firms</li>
+        </ul>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary">Get Started</a>
+          <a href="#" class="btn-secondary">Book A Consultation</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="Assets/Banner Image.png" alt="Compliance Illustration" />
+         
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES SECTION ===== -->
+  <section id="section-features" class="features-section">
+    <div class="container">
+      <div class="features-header">
+        <h2>Why <span class="highlight">Compliance</span> Matters<br>For Research Analysts</h2>
+        <p>
+          In today’s regulatory environment, even a small oversight can lead to
+          penalties, reputational risks, and loss of client trust. We help research
+          analysts and firms navigate complex compliance requirements so they can
+          focus on delivering high-quality research without worry.
+        </p>
+      </div>
+
+      <div class="features-content">
+        <div class="features-image">
+          <img src="Assets/Section2-Image.png" alt="Analytics Illustration" />
+        </div>
+
+        <div class="features-list">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <img src="Assets/Regulatory Clarity.png" alt="Regulatory Clarity">
+            </div>
+            <div class="feature-text">
+              <h3>Regulatory Clarity</h3>
+              <p>We decode complex compliance rules into simple, actionable steps.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <img src="Assets/Hassle-Free Filings Clarity.png" alt="Hassle-Free Filings">
+            </div>
+            <div class="feature-text">
+              <h3>Hassle-Free Filings Clarity</h3>
+              <p>From registration to ongoing reporting—we manage it end-to-end.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <img src="Assets/Risk Protection.png" alt="Risk Protection">
+            </div>
+            <div class="feature-text">
+              <h3>Risk Protection</h3>
+              <p>Stay ahead of audits, inspections, and compliance gaps with proactive support.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <!-- Mobile nav (append to body) -->
+<div id="mobileNavOverlay" class="mobile-nav-overlay" aria-hidden="true"></div>
+
+<div id="mobileNavPanel" class="mobile-nav-panel" aria-hidden="true">
+  <nav aria-label="Mobile Navigation">
+    <ul class="nav-list">
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#features" class="mobile-link">About Us</a></li>
+      <li><a href="#services" class="mobile-link">Our Services</a></li>
+      <li><a href="#pricing" class="mobile-link">Pricing</a></li>
+      <li><a href="#faq" class="mobile-link">FAQ</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+</body>
+</html>
